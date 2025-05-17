@@ -1,0 +1,178 @@
+/*
+Hoja de estilo modernizada con diseño más claro
+Autor: María
+*/
+
+a:link {
+	color: #007BFF;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:visited {
+	color: #6f42c1;
+	font-weight: normal;
+}
+
+a:hover {
+	color: #0056b3;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a.menu {
+	display: block;
+	padding: 0.4em;
+	background-color: rgb(15, 0, 59);
+	color: white;
+	border-radius: 6px;
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+
+a.menu:hover {
+	background-color: rgb(26, 8, 82);
+}
+
+p {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	border: 2px solid #add8e6;
+	border-radius: 10px;
+	background-color: #f9f9f9;
+	transition: all 0.3s ease;
+}
+
+p.otro {
+	border-style: dotted;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #333;
+	background-color: #fdfdfd;
+	margin: 0;
+	padding: 0 1em;
+}
+
+img,
+video,
+canvas {
+	max-width: 100%;
+	height: auto;
+}
+
+header {
+	padding: 1em;
+	color: #004085;
+	font-weight: bold;
+	font-size: 1.6em;
+	background-color: #e2e6ea;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+figure.logo {
+	display: inline;
+}
+
+img.logo {
+	width: 80px;
+	height: 80px;
+}
+
+nav {
+	background-color: #4d5154;
+	padding: 10px 20px;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	padding: 8px 15px;
+	color: white;
+	font: bold 15px Arial, sans-serif;
+}
+
+nav li:hover {
+	background-color: #495057;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+aside {
+	float: right;
+	width: 200px;
+	margin: 20px 0;
+	padding: 15px;
+	background: #dee2e6;
+	border-radius: 8px;
+}
+
+section {
+	float: left;
+	width: calc(100% - 300px);
+	margin: 20px 20px 20px 0;
+	padding: 1em;
+	background-color: #f8f9fa;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+footer .contenedor {
+	padding: 1em;
+	text-align: center;
+}
+
+footer .nosotros {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+footer .nosotros h2 {
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+
+footer .nosotros p {
+	font-size: 0.95em;
+	color: #333;
+}
+
+footer p.copyright {
+	text-align: center;
+	margin-top: 1em;
+	font-size: 0.85em;
+	color: #555;
+}
+
+
+#titPral {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Responsivo */
+@media screen and (max-width: 800px) {
+	header {
+		height: auto;
+		font-size: 1.2em;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	section,
+	aside {
+		float: none;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	nav li {
+		display: block;
+		margin: 5px 0;
+	}
+}
