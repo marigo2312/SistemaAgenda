@@ -1,3 +1,5 @@
+Rivera Gomez Maria de Jesus 22010986
+
 Instrucciones de instalacion y ejecucion:
 1. Descargar todos los archivos y mantenerlos en una carpeta dentro de hdocs llamada "SistemaAgenda", para mantener el orden original
 2. Activar lps servicios Apache y MySQL dentro de Xampp
